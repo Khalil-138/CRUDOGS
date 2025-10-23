@@ -1,0 +1,18 @@
+{
+  "name": "crudogs",
+  "version": "1.0.0",
+  "description": "Para treinar NODE e CRUD foi proposto criar uma API de doguinhos",
+  "main": "index.js",
+   "type": "module",
+  "scripts": {
+    "dev": "node --watch ./src/index.js",
+    "test": "cross-env TEST=true node --experimental-vm-modules node_modules/jest/bin/jest.js"  },
+  "author": "Khal Monteiro",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^10.1.0",
+    "express": "^5.1.0",
+    "jest": "^30.2.0"
+
+  }
+}
